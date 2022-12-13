@@ -267,7 +267,3 @@ class SmallScreenApp(object):
         elif event.char == '.':
             self.add_point()
 
-
-root = tk.Tk()
-app = SmallScreenApp(root)
-root.mainloop()
